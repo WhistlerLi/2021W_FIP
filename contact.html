@@ -14,10 +14,11 @@
 <body>
 <div class="container centered">
     <div class="c3 menu">
-        <a class="gn-icon gn-icon-menu"><img src="img/menu.png"></a>
+        <label class="gn-icon gn-icon-menu" for="checkbox1"><img src="img/menu.png"></label>
         <ul class="gn-menu-main mobile">
             <li class="gn-trigger">
                 <nav class="gn-menu-wrapper">
+                    <input type="checkbox" id='checkbox1'>
                     <div class="gn-scroller">
                         <ul class="gn-menu">
                             <li><a href="index.html" class="gn-icon gn-icon-home"><label class="comm"></label>MEMBERSHIP</a>
@@ -104,12 +105,5 @@
         </div>
     </div>
 </div>
-
-<script src="js/jquery.min.js"></script>
-<script>
-    $(".gn-icon-menu").click(function () {
-        $(".gn-scroller").toggle();
-    });
-</script>
 </body>
 </html>
