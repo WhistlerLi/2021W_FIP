@@ -122,9 +122,9 @@ ul ul {
 @media (min-width: 992px) {
     body {
         /*padding: 0 110px 0 110px;*/
-        max-width:1200px;
-        margin:0 auto;
-        height:100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 100%;
     }
 
     .container {
@@ -139,8 +139,8 @@ ul ul {
         width: 33.33333333%
     }
 
-    .cm5{
-        width:49%;
+    .cm5 {
+        width: 49%;
     }
 
     .left {
@@ -770,4 +770,12 @@ textarea.form-control {
 .join img {
     width: 50%;
     height: 50%
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.gn-menu-wrapper input[type=checkbox]:checked + .gn-scroller {
+    display: block;
 }
