@@ -730,6 +730,35 @@ textarea.form-control {
     text-align: center;
     margin: 30px 0 150px 0;
 }
+.registerBtn{
+    background: url("../img/register.png") no-repeat;;
+    background-size: 100%;
+    border-style: none;
+    padding:8px 39px 14px;
+    color:#ffffff;
+}
+.skillsBtn{
+    background: url("../img/skills.png") no-repeat;;
+    background-size: 100%;
+    border-style: none;
+    padding:12px 25px 21px;
+    color:#ffffff;
+}
+.parentBtn{
+    background: url("../img/parent.png") no-repeat;;
+    background-size: 100%;
+    border-style: none;
+    padding:12px 32px 21px;
+    color:#ffffff;
+}
+
+.joinBtn{
+    background: url("../img/join.png") no-repeat;;
+    background-size: 100%;
+    border-style: none;
+    padding:12px 32px 13px;
+    color:#ffffff;
+}
 
 .contact-register img {
     width: 50%;
