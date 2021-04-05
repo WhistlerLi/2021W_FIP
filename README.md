@@ -17,7 +17,7 @@ our team would like the opportunity to assist.
 * Motion designer: Junhwa
 * 3D Artist: Greg 
 * Front end developer: Mengyang, Sid
-* Back end developer: AhmedLicense
+* Back end developer: Ahmed, Enmin
 
 ## License
 London Referees Group
